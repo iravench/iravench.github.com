@@ -4,7 +4,7 @@
   <title><![CDATA[Raven's Blog]]></title>
   <link href="http://blog.iraven.ch/atom.xml" rel="self"/>
   <link href="http://blog.iraven.ch/"/>
-  <updated>2013-03-15T19:49:41+08:00</updated>
+  <updated>2013-10-29T15:05:58+08:00</updated>
   <id>http://blog.iraven.ch/</id>
   <author>
     <name><![CDATA[Raven Chen]]></name>
@@ -48,7 +48,7 @@
 <ul>
 <li>Although Business changes, it changes gradually.</li>
 <li>Although Device are many, some share common characteristics.</li>
-<li>Although we will have to face different Device platforms, we&#8217;re running the same Business.</li>
+<li>Although we will have to face different Device platforms, we&rsquo;re running the same Business.</li>
 </ul>
 
 
@@ -72,7 +72,7 @@
 
 <p>Business logic should be modularized, this makes sure future changes to the business isolated within a handful of modules. With sub-application level modules addressing the common business scenarios, features could be defined and maintained in a multi-devices environment reusing these modules.</p>
 
-<p>Automated test is extremely important. When developing for a new platform, you&#8217;ll have to port over at least part of your business logic due to the introduction of a new platform. Tests under such circumstances offer you great confidence. (Test should be simple, easy to write and read, therefore much easier to be ported over to and ran from a new platform, compare to the business logic.) Tests should not be developer only, higher level testing and integration is crucial for Business to be expressed consistently across devices.</p>
+<p>Automated test is extremely important. When developing for a new platform, you&rsquo;ll have to port over at least part of your business logic due to the introduction of a new platform. Tests under such circumstances offer you great confidence. (Test should be simple, easy to write and read, therefore much easier to be ported over to and ran from a new platform, compare to the business logic.) Tests should not be developer only, higher level testing and integration is crucial for Business to be expressed consistently across devices.</p>
 
 <p>Details only make sense to a specific device. By carefully implementing details the way it requires, you get the best performance while not complicating the business logic. For example, when a business feature requires user identity, a web application may read it from Browser Cookie, while a mobile application may need to retrieve the information from a Keychain Service.</p>
 
@@ -89,9 +89,9 @@
 
 <h3>The problem</h3>
 
-<p>There&#8217;s no doubts the world&#8217;s changing, everyday new informations flooding in overwhelmingly, like this exciting piece about <a href="http://blog.alexmaccaw.com/the-next-web">the Next Web</a>. So how would you, as a person or an organization related to the field, feel and act upon such changes? Will you try to pursuit whatever that&#8217;s new and promising? Or just bury your head in the sand then wait to be forced out with tears bursting out off your face?</p>
+<p>There&rsquo;s no doubts the world&rsquo;s changing, everyday new informations flooding in overwhelmingly, like this exciting piece about <a href="http://blog.alexmaccaw.com/the-next-web">the Next Web</a>. So how would you, as a person or an organization related to the field, feel and act upon such changes? Will you try to pursuit whatever that&rsquo;s new and promising? Or just bury your head in the sand then wait to be forced out with tears bursting out off your face?</p>
 
-<p>Now here&#8217;s what I proposed to deal with such. Starting with a little bit maybe philosophy.</p>
+<p>Now here&rsquo;s what I proposed to deal with such. Starting with a little bit maybe philosophy.</p>
 
 <h3>How I understand the world</h3>
 
@@ -101,18 +101,18 @@
 
 <ol>
 <li>I view the world of two distinct kinds: principles and specific objects.</li>
-<li>Principles are abstract, they are about how I view and explain the world, so they are &#8216;conceptually&#8217; stable. Things are what the world really is, and it&#8217;s so big a world that I couldn&#8217;t possibly live long enough to experience it all.</li>
+<li>Principles are abstract, they are about how I view and explain the world, so they are &lsquo;conceptually&rsquo; stable. Things are what the world really is, and it&rsquo;s so big a world that I couldn&rsquo;t possibly live long enough to experience it all.</li>
 <li>In order to understand enough about something that is specific, I need to be able to place it to a fixed, known position in my conceptual mind, meaning I need to know exactly to which set of principles they comply.</li>
 <li>Things that I have yet to deal with may very well end up changing what I used to think of the world. So despite that principles are stable for most of the time, they could as well be altered under different circumstances.</li>
-<li>There&#8217;re things in the world that I just don&#8217;t care about, knowing the principles I value will help sorting those out quickly as possible.</li>
+<li>There&rsquo;re things in the world that I just don&rsquo;t care about, knowing the principles I value will help sorting those out quickly as possible.</li>
 </ol>
 
 
-<p>As I see software development non special but one aspect of my life, I expect principles of some kind about the field to be formed so I don&#8217;t get panic every time dealing with things unfamiliar. Now here&#8217;s the question: as a developer, Business Software Developer specifically, what kind of principles available that I could follow to make my days a little bit less tough?</p>
+<p>As I see software development non special but one aspect of my life, I expect principles of some kind about the field to be formed so I don&rsquo;t get panic every time dealing with things unfamiliar. Now here&rsquo;s the question: as a developer, Business Software Developer specifically, what kind of principles available that I could follow to make my days a little bit less tough?</p>
 
-<p>(Figuring out such principles will certainly assist a person in shaping his career. And I wouldn&#8217;t hesitate adding organizations to the benefitting-list)</p>
+<p>(Figuring out such principles will certainly assist a person in shaping his career. And I wouldn&rsquo;t hesitate adding organizations to the benefitting-list)</p>
 
-<p>So let&#8217;s dive a bit deeper to the subject, by giving a definition to</p>
+<p>So let&rsquo;s dive a bit deeper to the subject, by giving a definition to</p>
 
 <h3>Business Software Development</h3>
 
@@ -123,19 +123,19 @@
 </ul>
 
 
-<p>Business can definitely be operated in many fashions. As a developer, we&#8217;re focusing on those done through the Computable Devices. Being Computable, it leverages the power of a magic &#8216;device&#8217; — special hardware plus the ecosystem around it, for achieving the business goals more efficiently and naturally as human society evolves in favor of higher productivity.</p>
+<p>Business can definitely be operated in many fashions. As a developer, we&rsquo;re focusing on those done through the Computable Devices. Being Computable, it leverages the power of a magic &lsquo;device&rsquo; — special hardware plus the ecosystem around it, for achieving the business goals more efficiently and naturally as human society evolves in favor of higher productivity.</p>
 
-<p>Think about the transitions we&#8217;ve been through and experiencing:</p>
+<p>Think about the transitions we&rsquo;ve been through and experiencing:</p>
 
 <ol>
 <li>The mainframe era, computing resources were solely available to academics or maybe some giant corporations. It performs massive data analysis and generates maybe statistical predictions which helps in making business decisions. In this period, there is no direct interactions between the end users and the business through the computable devices. So obviously, no Business Software Developers were required.</li>
 <li>The Pre-Internet-PC era, less expensive workstations are available, limited connections between the servers and stations could be setup locally. It starts moving into the everyday practices of a business, by improving operational efficiencies and saving cost. We started to see the emergence of word processing, data entry/reporting, printing, etc. In this period, IT administrators were hired, to maintain in-office hardwares and softwares which often came in as a bundle and normally provided by specialized companies taking care of both the software &amp; hardware. But still, no interactions, no Business Software Developers.</li>
-<li>The Internet-PC era, PCs becomes available and keeps getting cheaper. Software begins its focus on individuals. Then rose the Great Internet, which enables the connection between PCs and PC - Organization, then starts the application of the browser and the Web. Only at this period, the business and the end users began to realize that they could reach out to each other through a cheap browser window. Applications such as corporate websites, web campaigns/marketings, eCommerce models, and the likes became major phenomenons and strong links between the business and the end users. Because of the uniqueness of each business model, in order to convey its intents to the end users, business needs software specialists to implement various of its strategies. A new career line was then created, the Business Software Developer. Since they were mainly dealing with the Web - by creating applications available to browsers, and the browser back then was slow and incompatible b/w brands, these applications tend to be simple. Thus a lot of the business logics are performed at the backend, on the servers running within organizations. This&#8217;s how we established the classic 3 layer abstraction model for building enterprise applications, namely the Presentation layer, the Business logic layer and the Persistence layer.</li>
-<li>The Post PC era, this&#8217;s happening because customers now have more computing powers at hand. Not only through PCs, but other accessories like phone, music player, watch, etc have become computable devices. These magical devices empower people, basically every single one of them, kinds of easy, natural, contextual ways to interact with the digital world. Data and business intents could now be rendered in such an appealing way to the end users that their great satisfactions unlock a whole lot new possibilities to present, perform and deliver business. Business now has more interaction models at their disposal, to reach out for the end users. As a Business Software Developer, he is now required to build applications for specific devices in order to provide the kind of experience the customer needs and knowing what kind of computable device he&#8217;s building on, what sort of scenarios the device will be used in, and what kind of interactions are expected on that device is crucial for his success. But his main focus remain unchanged, to deliver business to the end user.</li>
+<li>The Internet-PC era, PCs becomes available and keeps getting cheaper. Software begins its focus on individuals. Then rose the Great Internet, which enables the connection between PCs and PC &ndash; Organization, then starts the application of the browser and the Web. Only at this period, the business and the end users began to realize that they could reach out to each other through a cheap browser window. Applications such as corporate websites, web campaigns/marketings, eCommerce models, and the likes became major phenomenons and strong links between the business and the end users. Because of the uniqueness of each business model, in order to convey its intents to the end users, business needs software specialists to implement various of its strategies. A new career line was then created, the Business Software Developer. Since they were mainly dealing with the Web &ndash; by creating applications available to browsers, and the browser back then was slow and incompatible b/w brands, these applications tend to be simple. Thus a lot of the business logics are performed at the backend, on the servers running within organizations. This&rsquo;s how we established the classic 3 layer abstraction model for building enterprise applications, namely the Presentation layer, the Business logic layer and the Persistence layer.</li>
+<li>The Post PC era, this&rsquo;s happening because customers now have more computing powers at hand. Not only through PCs, but other accessories like phone, music player, watch, etc have become computable devices. These magical devices empower people, basically every single one of them, kinds of easy, natural, contextual ways to interact with the digital world. Data and business intents could now be rendered in such an appealing way to the end users that their great satisfactions unlock a whole lot new possibilities to present, perform and deliver business. Business now has more interaction models at their disposal, to reach out for the end users. As a Business Software Developer, he is now required to build applications for specific devices in order to provide the kind of experience the customer needs and knowing what kind of computable device he&rsquo;s building on, what sort of scenarios the device will be used in, and what kind of interactions are expected on that device is crucial for his success. But his main focus remain unchanged, to deliver business to the end user.</li>
 </ol>
 
 
-<p>So we could arrive at our first principle: Business Software Development is to bring business to the end users through various types of computable devices. The device&#8217;s capability and use scenario decide what parts and how much of the business logics the device should contain.</p>
+<p>So we could arrive at our first principle: Business Software Development is to bring business to the end users through various types of computable devices. The device&rsquo;s capability and use scenario decide what parts and how much of the business logics the device should contain.</p>
 
 <p>It seems the business logic is moving from within organizations to devices that are much more closer to the end users, from trends of above transitions.</p>
 
@@ -153,13 +153,13 @@
 </ul>
 
 
-<p>No business could succeed when it fails on communicating to the end users, in a way they understand. To reach out to a customer, you have 2 basic forms: #1 you manage to get a list of customers, then you can ask them how they want to receive your product messages; #2 you have no idea of your customers&#8217; where about, but you do have couple communication channels at your disposal. Then base on behavior analysis of customers related to a specific channel, you cook up a special message for that channel, send it and hope it works. And whatever that is, at the very end, when it comes down to implementation for a Business Software Developer, it&#8217;s to make sure that the end user on a specific communication channel gets the best user experience. Even to communicate the same business idea, you&#8217;ll have to do it differently for different communication channels.</p>
+<p>No business could succeed when it fails on communicating to the end users, in a way they understand. To reach out to a customer, you have 2 basic forms: #1 you manage to get a list of customers, then you can ask them how they want to receive your product messages; #2 you have no idea of your customers&#8217; where about, but you do have couple communication channels at your disposal. Then base on behavior analysis of customers related to a specific channel, you cook up a special message for that channel, send it and hope it works. And whatever that is, at the very end, when it comes down to implementation for a Business Software Developer, it&rsquo;s to make sure that the end user on a specific communication channel gets the best user experience. Even to communicate the same business idea, you&rsquo;ll have to do it differently for different communication channels.</p>
 
 <p>So the third principle: Business Software Development should be done in such a way, that the real implementation of a business logic align with the communication channel that facilitates the interaction.</p>
 
 <h3>Conclusion</h3>
 
-<p>The business, computable devices and customer interactions keep evolving, one must realize that there&#8217;s no points claiming that we have created such thing as the &#8216;Perfect Software&#8217;. Development is an ongoing process, when any of the factors presents challenge, the process shall well reflect that. This is the very nature of Business Software Development.</p>
+<p>The business, computable devices and customer interactions keep evolving, one must realize that there&rsquo;s no points claiming that we have created such thing as the &lsquo;Perfect Software&rsquo;. Development is an ongoing process, when any of the factors presents challenge, the process shall well reflect that. This is the very nature of Business Software Development.</p>
 
 <p>And to recap the 3 principles:</p>
 
@@ -170,7 +170,7 @@
 </ol>
 
 
-<p>We&#8217;ll see in the next piece how these 3 principles could be realized when structuring your project in certain way. And hopefully, how these could help a developer from understanding and choosing technologies.</p>
+<p>We&rsquo;ll see in the next piece how these 3 principles could be realized when structuring your project in certain way. And hopefully, how these could help a developer from understanding and choosing technologies.</p>
 ]]></content>
   </entry>
   
@@ -181,35 +181,35 @@
     <id>http://blog.iraven.ch/post/2012/11/02/Corporate-Website-the-Awkwardness</id>
     <content type="html"><![CDATA[<h3>the fall of the corporate website</h3>
 
-<p>Companies, at least mine, are investing on their corporate websites, not in such an efficient way, I&#8217;d say.</p>
+<p>Companies, at least mine, are investing on their corporate websites, not in such an efficient way, I&rsquo;d say.</p>
 
-<p>Why is that? Internet user&#8217;s behavior has been drastically changed in recent years. Way too much investment and energy have been focus in this field and we&#8217;re experiencing so called information explosion period of the Internet. Too much information creates distractions, which creates picky users, who used to be &#8220;so bored out here, let&#8217;s go window shopping&#8221; and now they&#8217;re more like &#8220;you&#8217;d better have room service, or I&#8217;d turn away right now&#8221;.</p>
+<p>Why is that? Internet user&rsquo;s behavior has been drastically changed in recent years. Way too much investment and energy have been focus in this field and we&rsquo;re experiencing so called information explosion period of the Internet. Too much information creates distractions, which creates picky users, who used to be &ldquo;so bored out here, let&rsquo;s go window shopping&rdquo; and now they&rsquo;re more like &ldquo;you&rsquo;d better have room service, or I&rsquo;d turn away right now&rdquo;.</p>
 
-<p>Corporate website is stepping down. It&#8217;s used to be the only online face of a company, and now it&#8217;s just one of them.</p>
+<p>Corporate website is stepping down. It&rsquo;s used to be the only online face of a company, and now it&rsquo;s just one of them.</p>
 
 <h3>how users behave on the internet?</h3>
 
-<p>In reality, we probably don&#8217;t care to see these big complex, rich &amp; informative, menus stack on menus corporate old fashion website anymore. I don&#8217;t even go to search engines that much, instead I&#8217;d keep my Tweetbot up and running all day.</p>
+<p>In reality, we probably don&rsquo;t care to see these big complex, rich &amp; informative, menus stack on menus corporate old fashion website anymore. I don&rsquo;t even go to search engines that much, instead I&rsquo;d keep my Tweetbot up and running all day.</p>
 
-<p>Do you remember Google used to have an iGoogle Page, with all kind of customizable widgets on? Now they replaced it with G+ and soon after that they have a +1 button appended to the search result. Also look at some others: Facebook(you connect friends, community so you can keep in touch with friends and also get a bunch of likes, which is so easy and nice to interact with, just one click away), Twitter(you get what&#8217;s popular out of the fields relevant to you), RSS feeds(bit like Twitter, interesting content with extend detail. Who cares about blog design anymore as long as you get me hook? I just read blogs that I care.), social aggregation tools(like hacker news, identify popular &amp; important topics among (the developer) communities), etc.</p>
+<p>Do you remember Google used to have an iGoogle Page, with all kind of customizable widgets on? Now they replaced it with G+ and soon after that they have a +1 button appended to the search result. Also look at some others: Facebook(you connect friends, community so you can keep in touch with friends and also get a bunch of likes, which is so easy and nice to interact with, just one click away), Twitter(you get what&rsquo;s popular out of the fields relevant to you), RSS feeds(bit like Twitter, interesting content with extend detail. Who cares about blog design anymore as long as you get me hook? I just read blogs that I care.), social aggregation tools(like hacker news, identify popular &amp; important topics among (the developer) communities), etc.</p>
 
-<p>So obviously, we now prefer or promote those web experiences attached with interesting contexts, and we expect information relevant to us under that context be smart enough to reveal themselves. For that, we&#8217;re willing to give up personal identities, preferences and some other information to the web.</p>
+<p>So obviously, we now prefer or promote those web experiences attached with interesting contexts, and we expect information relevant to us under that context be smart enough to reveal themselves. For that, we&rsquo;re willing to give up personal identities, preferences and some other information to the web.</p>
 
-<p>We follow what we likes, tumble across the things interest us. Along the way, something new comes up, with a mouse click away, nice tempting visual effects, relevant to the context and mood, we couldn&#8217;t possibly be able to resist on checking it out.</p>
+<p>We follow what we likes, tumble across the things interest us. Along the way, something new comes up, with a mouse click away, nice tempting visual effects, relevant to the context and mood, we couldn&rsquo;t possibly be able to resist on checking it out.</p>
 
 <p>Only those consumable, accessible, relevant information that pops up right in front of you gets noticed.</p>
 
 <h3>corporate website is still important</h3>
 
-<p>Although the role our dear old corporate website used to play has changed, it is still the most official/unmistakable source about the company, the products, the marketing events. I bet you would still check on the product you come across from many sources on its website to make sure everything they claimed is authentic, so you&#8217;ll be in confidence making purchases. If that kind of information not so hard to locate, right? Plus, a central repository make it easy for the company to manage content and react to challenges. So you&#8217;ll still need that site hanging in there.</p>
+<p>Although the role our dear old corporate website used to play has changed, it is still the most official/unmistakable source about the company, the products, the marketing events. I bet you would still check on the product you come across from many sources on its website to make sure everything they claimed is authentic, so you&rsquo;ll be in confidence making purchases. If that kind of information not so hard to locate, right? Plus, a central repository make it easy for the company to manage content and react to challenges. So you&rsquo;ll still need that site hanging in there.</p>
 
 <h3>[Re]Positioning</h3>
 
-<p>So user wants information, and we have the most official ones now on our website, but people just don&#8217;t bather going there spontaneously no matter how gorgeous you think you&#8217;ve made it looks… How could these be changed?</p>
+<p>So user wants information, and we have the most official ones now on our website, but people just don&rsquo;t bather going there spontaneously no matter how gorgeous you think you&rsquo;ve made it looks… How could these be changed?</p>
 
 <p>Quite simple actually, we have the good stuff and the only thing we need is to figure out a way to sell it.</p>
 
-<p>Now repeat after me: Corporate website is no longer the only online face of your company image. It&#8217;s one of the many. You should switch you mind from Corporate website oriented to Information oriented - build a central resource repository and distribute accordingly, not only to your web site, also to other channels.</p>
+<p>Now repeat after me: Corporate website is no longer the only online face of your company image. It&rsquo;s one of the many. You should switch you mind from Corporate website oriented to Information oriented &ndash; build a central resource repository and distribute accordingly, not only to your web site, also to other channels.</p>
 
 <p>Information should be collected and managed in a central place. Then break them into pieces and deliver using channels that make the most sense. Information pieces could have different appearances and reach out in many ways. Managing old fashion websites becomes managing information and content, building channels, processing content into consumable, fit for the channel and target pieces, delivering them right so they show up when mostly needed and expected, logging and analyzing feedbacks for further improvements.</p>
 ]]></content>
