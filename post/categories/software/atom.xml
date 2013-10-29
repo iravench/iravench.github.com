@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Software | Raven's Blog]]></title>
   <link href="http://blog.iraven.ch/post/categories/software/atom.xml" rel="self"/>
   <link href="http://blog.iraven.ch/"/>
-  <updated>2013-10-29T15:05:58+08:00</updated>
+  <updated>2013-10-29T15:30:36+08:00</updated>
   <id>http://blog.iraven.ch/</id>
   <author>
     <name><![CDATA[Raven Chen]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[OO is not about persistency]]></title>
+    <link href="http://blog.iraven.ch/post/2013/06/09/oo-is-not-about-persistency/"/>
+    <updated>2013-06-09T01:54:00+08:00</updated>
+    <id>http://blog.iraven.ch/post/2013/06/09/oo-is-not-about-persistency</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Business Software Development Part 2]]></title>
