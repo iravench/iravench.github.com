@@ -4,7 +4,7 @@
   <title><![CDATA[Raven's Blog]]></title>
   <link href="http://blog.iraven.ch/atom.xml" rel="self"/>
   <link href="http://blog.iraven.ch/"/>
-  <updated>2013-10-29T15:59:56+08:00</updated>
+  <updated>2013-11-19T13:05:50+08:00</updated>
   <id>http://blog.iraven.ch/</id>
   <author>
     <name><![CDATA[Raven Chen]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[OO is not about persistency]]></title>
+    <title type="html"><![CDATA[OO Is Not About Persistency]]></title>
     <link href="http://blog.iraven.ch/post/2013/06/09/oo-is-not-about-persistency/"/>
     <updated>2013-06-09T01:54:00+08:00</updated>
     <id>http://blog.iraven.ch/post/2013/06/09/oo-is-not-about-persistency</id>
