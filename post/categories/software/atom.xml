@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Software | Raven's Blog]]></title>
   <link href="http://blog.iraven.ch/post/categories/software/atom.xml" rel="self"/>
   <link href="http://blog.iraven.ch/"/>
-  <updated>2013-12-25T16:19:59+08:00</updated>
+  <updated>2013-12-26T00:36:28+08:00</updated>
   <id>http://blog.iraven.ch/</id>
   <author>
     <name><![CDATA[Raven Chen]]></name>
@@ -18,6 +18,15 @@
     <link href="http://blog.iraven.ch/post/2013/06/09/oo-is-not-about-persistency/"/>
     <updated>2013-06-09T01:54:00+08:00</updated>
     <id>http://blog.iraven.ch/post/2013/06/09/oo-is-not-about-persistency</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[OO is not about Data Persistency]]></title>
+    <link href="http://blog.iraven.ch/post/2013/06/09/oo-is-not-about-data-persistency/"/>
+    <updated>2013-06-09T01:54:00+08:00</updated>
+    <id>http://blog.iraven.ch/post/2013/06/09/oo-is-not-about-data-persistency</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
